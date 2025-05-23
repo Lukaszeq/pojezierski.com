@@ -24,10 +24,12 @@ body {
 .container {
   max-width: 1000px;
   color: #fff !important;
+  background-color: #253432 !important;
 }
 
 div {
   color: #fff !important;
+  background-color: #253432 !important;
 }
 
 h1 {
