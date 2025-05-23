@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "TeXGyreHeros";
+  src: url("../fonts/texgyreheros-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TeXGyreHeros";
+  src: url("../fonts/texgyreheros-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "TeXGyreHeros", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #253432 !important;
+}
+
+.container {
+  max-width: 1000px;
+  color: #fff !important;
+}
+
+div {
+  color: #fff !important;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 1;
+  font-family: "TeXGyreHeros", sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1;
+  font-family: "TeXGyreHeros", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-family: "TeXGyreHeros", sans-serif;
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase !important;
+}
+
+s {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 0.15em;
+  text-decoration-color: currentColor;
+}
