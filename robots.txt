@@ -61,3 +61,4 @@ User-agent: Webzio-Extended
 User-agent: wpbot
 User-agent: YouBot
 Disallow: /
+Sitemap: https://pojezierski.com/sitemap.xml
